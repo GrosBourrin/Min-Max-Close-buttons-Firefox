@@ -1,6 +1,6 @@
 /*-min max close */
 .titlebar-button>.toolbarbutton-icon {
-  /* change numbers at your needs */
+  /* change numbers at your needs - size of buttons */
 	height: 15px !important;
 	min-height: 15px !important;
 	width: 15px !important;
