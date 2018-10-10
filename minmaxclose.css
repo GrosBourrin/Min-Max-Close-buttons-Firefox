@@ -1,0 +1,40 @@
+/*-min max close */
+.titlebar-button>.toolbarbutton-icon {
+  /* change numbers at your needs */
+	height: 15px !important;
+	min-height: 15px !important;
+	width: 15px !important;
+	min-width: 15px !important;
+}
+.titlebar-button {
+	padding-left: 6px !important;
+	padding-right: 6px !important;
+	padding-top: 6px !important; 
+}
+
+/* minimize button */
+#titlebar-min {
+	list-style-image: url("yellow1.svg") !important;
+}
+#titlebar-min:hover {
+	list-style-image: url("yellowmoins.svg") !important; /*moins is minus in french */
+	background-color: transparent !important;
+}
+
+/* maximize button */
+#titlebar-max {
+	list-style-image: url("orange.svg") !important;
+}
+#titlebar-max:hover {
+	list-style-image: url("plus.svg") !important;
+	background-color: transparent !important;
+}
+
+/* close button */
+#titlebar-close {
+	list-style-image: url("rouge.svg") !important; /* rouge is red in french */
+}
+#titlebar-close:hover {
+	list-style-image: url("rougeclose.svg") !important;
+	background-color: transparent !important;
+}
