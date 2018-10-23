@@ -1,3 +1,9 @@
+/* shadow side of tab */
+.tabbrowser-tab[visuallyselected="true"] {
+	box-shadow: 0 0 26px #ffffff !important; 
+	/*try several blur number(px) & colors (#...)  to your taste*/
+}
+
 .tabs-newtab-button.toolbarbutton-1 .toolbarbutton-icon {
 	background-color: unset !important;
 	list-style-image: url("bluearrow.png") !important;
