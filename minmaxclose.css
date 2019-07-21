@@ -1,42 +1,37 @@
+/*-min max close */
 .titlebar-button>.toolbarbutton-icon {
-	height: 17px !important;
-	min-height: 17px !important;
-	width: 17px !important;
-	min-width: 17px !important;
+  /* change numbers at your needs - size of buttons */
+	height: 15px !important;
+	min-height: 15px !important;
+	width: 15px !important;
+	min-width: 15px !important;
 }
-
 .titlebar-button {
 	padding-left: 6px !important;
 	padding-right: 6px !important;
-	padding-top: 6px !important;
+	padding-top: 6px !important; 
 }
-
-.titlebar-min {
-	list-style-image: url("active_min.png") !important;
+/* minimize button */
+#titlebar-min {
+	list-style-image: url("yellow1.svg") !important;
+}
+#titlebar-min:hover {
+	list-style-image: url("yellowmoins.svg") !important; /*moins is minus in french */
 	background-color: transparent !important;
 }
-
-.titlebar-min:hover {
-	list-style-image: url("mouseover_min.png") !important;
-	background-color: transparent !important;
-}
-
 /* maximize button */
-.titlebar-max {
-	list-style-image: url("active_max.png") !important;
+#titlebar-max {
+	list-style-image: url("orange.svg") !important;
 }
-
-.titlebar-max:hover {
-	list-style-image: url("mouseover_max.png") !important;
+#titlebar-max:hover {
+	list-style-image: url("plus.svg") !important;
 	background-color: transparent !important;
 }
-
 /* close button */
-.titlebar-close {
-	list-style-image: url("active_close.png") !important;
+#titlebar-close {
+	list-style-image: url("rouge.svg") !important; /* rouge is red in french */
 }
-
-.titlebar-close:hover {
-	list-style-image: url("mouseover_close.png") !important;
+#titlebar-close:hover {
+	list-style-image: url("rougeclose.svg") !important;
 	background-color: transparent !important;
 }
