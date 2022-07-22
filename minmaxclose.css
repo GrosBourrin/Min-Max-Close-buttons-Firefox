@@ -1,5 +1,14 @@
-/*-min max close */
+/*================== CAPTION BUTTONS ==================*/
 
+.titlebar-button {
+	transition: all 0.3s ease !important;
+}
+
+.titlebar-button>.toolbarbutton-icon {
+	transition: all 0.3s ease !important;	
+}
+
+/* sizes and position of buttons */
 .titlebar-button>.toolbarbutton-icon {
 	height: 16px !important;
 	min-height: 16px !important;
@@ -8,16 +17,18 @@
 }
 
 .titlebar-button {
-	padding-left: 0px !important;
-	margin-right: -2px !important;
-	padding-top: 7px !important;
-	margin-left: -2px !important;
+	padding-left: 7px !important;
+	padding-right: 8px !important;
+
 }
 
 .titlebar-buttonbox-container {
-	appearance: none !important;
-	margin-left: 20px !important;
+	-moz-appearance: none !important;
+	margin-left: 21px !important;
+	margin-right: 5px !important;
+	padding-top: -1px !important;
 }
+/*---------------------------------------*/
 
 .titlebar-min {
 	list-style-image: url("KnobOrange.ico") !important;
